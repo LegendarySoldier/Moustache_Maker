@@ -1,0 +1,24 @@
+h3{
+    font-size: 25px !important;
+}
+
+.btn-success:hover{
+    background-color: red;
+}
+
+canvas{
+    animation-name: grad;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes grad{
+    from {box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px blue;}
+    
+}
+
+body{
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+
+}
